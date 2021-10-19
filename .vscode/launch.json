@@ -1,6 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "https://localhost:4200",
+            "webRoot": "${workspaceFolder}/client/src"
+        },
+    {
+        "name": "Attach to Chrome",
+        "port": 4200,
+        "request": "attach",
+        "type": "pwa-chrome",
+        "webRoot": "${workspaceFolder}/client"
+    },
 
         {
             // Use IntelliSense to find out which attributes exist for C# debugging
